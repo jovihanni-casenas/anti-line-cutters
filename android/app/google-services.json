@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "727261719857",
+    "project_id": "anti-line-cutters-backend",
+    "storage_bucket": "anti-line-cutters-backend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727261719857:android:d3b7d10502205a877e1410",
+        "android_client_info": {
+          "package_name": "com.example.anti_line_cutters_frontend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727261719857-r4kqodiv8dcehog5nk71f5q3c6n8gkvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0c2uOw08SuoO2D3AWIOn9RpolwmjWdm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727261719857-r4kqodiv8dcehog5nk71f5q3c6n8gkvl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "727261719857-gai7rm44hn3dtrri8vrs0m9mcetato17.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.antiLineCuttersFrontend"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
