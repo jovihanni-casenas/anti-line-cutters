@@ -6,17 +6,25 @@ import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
 import 'package:firebase_storage/firebase_storage.dart';
+import 'package:firebase_database/firebase_database.dart';
 
 import 'firestore_database.dart';
 import 'firestore_img.dart';
 
 import 'monitoring_box.dart';
 
+
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+
+  // FirebaseDatabase database = FirebaseDatabase.instance;
+  DatabaseReference ref = FirebaseDatabase.instance.ref("photos/tile1").child("step");
+  sample(ref);
+
   runApp(const MyApp());
 }
 
@@ -109,4 +117,18 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
+}
+
+
+
+void sample(DatabaseReference ref) async{
+  await ref.update({
+    "5": "5_step.jpg",
+  });
+
+  DatabaseReference dr = FirebaseDatabase.instance.ref('photos/tile1/step');
+  Query q = dr.equalTo(null);
+  DataSnapshot ds = await q.get();
+  print("test: ");
+  print(ds.value);
 }

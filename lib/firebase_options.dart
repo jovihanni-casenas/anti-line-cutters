@@ -49,6 +49,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '727261719857',
     projectId: 'anti-line-cutters-backend',
     authDomain: 'anti-line-cutters-backend.firebaseapp.com',
+    databaseURL: 'https://anti-line-cutters-backend-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'anti-line-cutters-backend.appspot.com',
   );
 
@@ -57,6 +58,7 @@ class DefaultFirebaseOptions {
     appId: '1:727261719857:android:d3b7d10502205a877e1410',
     messagingSenderId: '727261719857',
     projectId: 'anti-line-cutters-backend',
+    databaseURL: 'https://anti-line-cutters-backend-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'anti-line-cutters-backend.appspot.com',
   );
 
@@ -65,6 +67,7 @@ class DefaultFirebaseOptions {
     appId: '1:727261719857:ios:294d56e636bd27c37e1410',
     messagingSenderId: '727261719857',
     projectId: 'anti-line-cutters-backend',
+    databaseURL: 'https://anti-line-cutters-backend-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'anti-line-cutters-backend.appspot.com',
     iosClientId: '727261719857-gai7rm44hn3dtrri8vrs0m9mcetato17.apps.googleusercontent.com',
     iosBundleId: 'com.example.antiLineCuttersFrontend',
@@ -75,6 +78,7 @@ class DefaultFirebaseOptions {
     appId: '1:727261719857:ios:294d56e636bd27c37e1410',
     messagingSenderId: '727261719857',
     projectId: 'anti-line-cutters-backend',
+    databaseURL: 'https://anti-line-cutters-backend-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'anti-line-cutters-backend.appspot.com',
     iosClientId: '727261719857-gai7rm44hn3dtrri8vrs0m9mcetato17.apps.googleusercontent.com',
     iosBundleId: 'com.example.antiLineCuttersFrontend',
